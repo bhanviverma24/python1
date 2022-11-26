@@ -7,8 +7,8 @@ class employee:
     def print_details(self):
         return self.name+' '+self.id+' '+self.sal
 e1=employee()
-e1.get_details('Mohit','01','1234546543')
+e1.get_details('Mohit','01','12346543')
 e2=employee()
-e2.get_details('Rohit','02','9876543')
+e2.get_details('Rohit','02','98763')
 print(e1.print_details())
 print(e2.print_details())
